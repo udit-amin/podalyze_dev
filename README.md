@@ -16,9 +16,9 @@ Podalyze is deployable via Docker on AWS EC2, ECS, or any container environment.
 
 ### Local Setup
 ```bash
-git clone https://github.com/yourusername/podalyze_dev.git
+git clone https://github.com/udit-amin/podalyze_dev.git
 cd podalyze_dev
-cp .env.local.example .env.local  # Add your secrets here
+touch .env.local  # Add your secrets here
 docker build -t podalyze .
 docker run -p 8000:8000 --env-file .env.local podalyze
 ```
