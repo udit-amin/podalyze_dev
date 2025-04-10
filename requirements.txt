@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-dotenv
+requests
+openai
+langchain
+faiss-cpu
+whisper
